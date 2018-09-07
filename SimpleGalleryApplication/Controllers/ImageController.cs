@@ -9,6 +9,7 @@ namespace SimpleGalleryApplication.Controllers
 {
   public class ImageController : Controller
   {
+    private IConfiguration _conf;
     public IActionResult Index()
     {
       return View();
@@ -25,6 +26,7 @@ namespace SimpleGalleryApplication.Controllers
     [HttpPost]
     public IActionResult UploadNewImage()
     {
+      //return Ok();
       return Ok();
     }
   }
