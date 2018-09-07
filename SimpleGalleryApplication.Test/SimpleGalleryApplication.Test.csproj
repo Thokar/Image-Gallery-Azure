@@ -12,4 +12,9 @@
     <PackageReference Include="MSTest.TestFramework" Version="1.2.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SimpleGalleryApplication.Data\SimpleGalleryApplication.Data.csproj" />
+    <ProjectReference Include="..\SimpleGalleryApplication\SimpleGalleryApplication.csproj" />
+  </ItemGroup>
+
 </Project>

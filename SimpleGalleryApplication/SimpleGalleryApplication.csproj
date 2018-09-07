@@ -11,6 +11,11 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SimpleGalleryApplication.Data\SimpleGalleryApplication.Data.csproj" />
+    <ProjectReference Include="..\SimpleGalleryApplication.Service\SimpleGalleryApplication.Service.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\images\" />
   </ItemGroup>
 
 </Project>

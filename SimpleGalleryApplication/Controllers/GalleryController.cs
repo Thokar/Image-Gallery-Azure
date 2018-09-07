@@ -20,7 +20,6 @@ namespace SimpleGalleryApplication.Controllers
 
     public IActionResult Index()
     {
-
       var imageList = _imageService.GetAll();
 
       var model = new GalleryIndexModel()

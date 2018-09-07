@@ -33,3 +33,5 @@ D:\Angular\FullStackApp\Image-Gallery-Azure\SimpleGalleryApplication\obj\Debug\n
 D:\Angular\FullStackApp\Image-Gallery-Azure\SimpleGalleryApplication\obj\Debug\netcoreapp2.1\SimpleGalleryApplication.dll
 D:\Angular\FullStackApp\Image-Gallery-Azure\SimpleGalleryApplication\obj\Debug\netcoreapp2.1\SimpleGalleryApplication.pdb
 D:\Angular\FullStackApp\Image-Gallery-Azure\SimpleGalleryApplication\obj\Debug\netcoreapp2.1\Razor\Views\Gallery\Index.g.cshtml.cs
+D:\Angular\FullStackApp\Image-Gallery-Azure\SimpleGalleryApplication\bin\Debug\netcoreapp2.1\SimpleGalleryApplication.Service.dll
+D:\Angular\FullStackApp\Image-Gallery-Azure\SimpleGalleryApplication\bin\Debug\netcoreapp2.1\SimpleGalleryApplication.Service.pdb
