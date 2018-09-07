@@ -3,7 +3,6 @@ D:\Angular\FullStackApp\Image-Gallery-Azure\SimpleGalleryApplication.Data\bin\De
 D:\Angular\FullStackApp\Image-Gallery-Azure\SimpleGalleryApplication.Data\bin\Debug\netcoreapp2.1\SimpleGalleryApplication.Data.runtimeconfig.dev.json
 D:\Angular\FullStackApp\Image-Gallery-Azure\SimpleGalleryApplication.Data\bin\Debug\netcoreapp2.1\SimpleGalleryApplication.Data.dll
 D:\Angular\FullStackApp\Image-Gallery-Azure\SimpleGalleryApplication.Data\bin\Debug\netcoreapp2.1\SimpleGalleryApplication.Data.pdb
-D:\Angular\FullStackApp\Image-Gallery-Azure\SimpleGalleryApplication.Data\obj\Debug\netcoreapp2.1\SimpleGalleryApplication.Data.csprojAssemblyReference.cache
 D:\Angular\FullStackApp\Image-Gallery-Azure\SimpleGalleryApplication.Data\obj\Debug\netcoreapp2.1\SimpleGalleryApplication.Data.csproj.CoreCompileInputs.cache
 D:\Angular\FullStackApp\Image-Gallery-Azure\SimpleGalleryApplication.Data\obj\Debug\netcoreapp2.1\SimpleGalleryApplication.Data.AssemblyInfoInputs.cache
 D:\Angular\FullStackApp\Image-Gallery-Azure\SimpleGalleryApplication.Data\obj\Debug\netcoreapp2.1\SimpleGalleryApplication.Data.AssemblyInfo.cs

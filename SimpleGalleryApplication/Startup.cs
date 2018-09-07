@@ -11,6 +11,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using SimpleGalleryApplication.Data;
+using SimpleGalleryApplication.Service;
 
 namespace SimpleGalleryApplication
 {
@@ -29,6 +30,8 @@ namespace SimpleGalleryApplication
       services.AddDbContext<SimpleImageGalleryDbContext>(options => 
         options.UseSqlServer(
           Configuration.GetConnectionString("DefaultConnection")));
+
+      services.AddScoped<IImage, ImageService>();
 
       services.Configure<CookiePolicyOptions>(options =>
       {
