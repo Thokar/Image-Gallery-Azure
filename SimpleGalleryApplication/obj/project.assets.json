@@ -12245,11 +12245,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\karbe\\source\\repos\\SimpleGalleryApplication\\SimpleGalleryApplication\\SimpleGalleryApplication.csproj",
+      "projectUniqueName": "D:\\Angular\\FullStackApp\\Image-Gallery-Azure\\SimpleGalleryApplication\\SimpleGalleryApplication.csproj",
       "projectName": "SimpleGalleryApplication",
-      "projectPath": "C:\\Users\\karbe\\source\\repos\\SimpleGalleryApplication\\SimpleGalleryApplication\\SimpleGalleryApplication.csproj",
+      "projectPath": "D:\\Angular\\FullStackApp\\Image-Gallery-Azure\\SimpleGalleryApplication\\SimpleGalleryApplication.csproj",
       "packagesPath": "C:\\Users\\karbe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\karbe\\source\\repos\\SimpleGalleryApplication\\SimpleGalleryApplication\\obj\\",
+      "outputPath": "D:\\Angular\\FullStackApp\\Image-Gallery-Azure\\SimpleGalleryApplication\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12270,8 +12270,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\karbe\\source\\repos\\SimpleGalleryApplication\\SimpleGalleryApplication.Data\\SimpleGalleryApplication.Data.csproj": {
-              "projectPath": "C:\\Users\\karbe\\source\\repos\\SimpleGalleryApplication\\SimpleGalleryApplication.Data\\SimpleGalleryApplication.Data.csproj"
+            "D:\\Angular\\FullStackApp\\Image-Gallery-Azure\\SimpleGalleryApplication.Data\\SimpleGalleryApplication.Data.csproj": {
+              "projectPath": "D:\\Angular\\FullStackApp\\Image-Gallery-Azure\\SimpleGalleryApplication.Data\\SimpleGalleryApplication.Data.csproj"
             }
           }
         }
