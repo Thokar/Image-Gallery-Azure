@@ -21,7 +21,7 @@ namespace SimpleGalleryApplication.Controllers
       var tag3 = new ImageTag() { Description = "New York", Id = 3 };
 
       hikingImageTags.Add(tag1);
-      cityImageTags.AddRange(new List<ImageTag> { tag2, tag2 });
+      cityImageTags.AddRange(new List<ImageTag> { tag2, tag3 });
 
       imageList.Add(new GalleryImage {
         Title = "Hiking Trip",

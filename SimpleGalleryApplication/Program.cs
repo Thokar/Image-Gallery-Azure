@@ -19,6 +19,7 @@ namespace SimpleGalleryApplication
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
+                .UseUrls("http://localhost:5000/") // different on docker: https://stackoverflow.com/questions/37365277/how-to-specify-the-port-an-asp-net-core-application-is-hosted-on
                 .UseStartup<Startup>();
     }
 }
