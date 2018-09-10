@@ -34,12 +34,31 @@
         <div class="item">
             <img src="~/images/banner3.svg" alt="Microsoft Azure" class="img-responsive" />
             <div class="carousel-caption" role="option">
-                <p>
-                    Learn how Microsoft's Azure cloud platform allows you to build, deploy, and scale web apps.
-                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkID=525027&clcid=0x409">
-                        Learn More
-                    </a>
-                </p>
+              <p>
+                Learn how Microsoft's Azure cloud platform allows you to build, deploy, and scale web apps.
+                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkID=525027&clcid=0x409">
+                  Learn More
+                </a>
+              </p>
+
+              <h3>
+                (DefaultConnection) @ViewData["DefaultConnection"]
+              </h3>
+              <h3>
+                (ProdConnection) @ViewData["ProdConnection"]
+              </h3>
+              <h3>
+                (AzureStorageConnectionString) @ViewData["AzureStorageConnectionString"]
+              </h3>
+              <h3>
+                (DefaultConnection.GetConnectionString) @ViewData["DefaultConnection.GetConnectionString"]
+              </h3>
+              <h3>
+                (ProdConnection.GetConnectionString) @ViewData["ProdConnection.GetConnectionString"]
+              </h3>
+              <h3>
+                (AzureStorageConnectionString.GetConnectionString) @ViewData["AzureStorageConnectionString.GetConnectionString"]
+              </h3>
             </div>
         </div>
     </div>
