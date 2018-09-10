@@ -3555,11 +3555,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Angular\\FullStackApp\\Image-Gallery-Azure\\SimpleGalleryApplication.Data\\SimpleGalleryApplication.Data.csproj",
+      "projectUniqueName": "D:\\FilesToGo\\Angular\\FullStackApp\\Image-Gallery-Azure\\SimpleGalleryApplication.Data\\SimpleGalleryApplication.Data.csproj",
       "projectName": "SimpleGalleryApplication.Data",
-      "projectPath": "D:\\Angular\\FullStackApp\\Image-Gallery-Azure\\SimpleGalleryApplication.Data\\SimpleGalleryApplication.Data.csproj",
+      "projectPath": "D:\\FilesToGo\\Angular\\FullStackApp\\Image-Gallery-Azure\\SimpleGalleryApplication.Data\\SimpleGalleryApplication.Data.csproj",
       "packagesPath": "C:\\Users\\karbe\\.nuget\\packages\\",
-      "outputPath": "D:\\Angular\\FullStackApp\\Image-Gallery-Azure\\SimpleGalleryApplication.Data\\obj\\",
+      "outputPath": "D:\\FilesToGo\\Angular\\FullStackApp\\Image-Gallery-Azure\\SimpleGalleryApplication.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -10,3 +10,15 @@ D:\Angular\FullStackApp\Image-Gallery-Azure\SimpleGalleryApplication.Service\obj
 D:\Angular\FullStackApp\Image-Gallery-Azure\SimpleGalleryApplication.Service\obj\Debug\netcoreapp2.1\SimpleGalleryApplication.Service.csproj.CopyComplete
 D:\Angular\FullStackApp\Image-Gallery-Azure\SimpleGalleryApplication.Service\obj\Debug\netcoreapp2.1\SimpleGalleryApplication.Service.dll
 D:\Angular\FullStackApp\Image-Gallery-Azure\SimpleGalleryApplication.Service\obj\Debug\netcoreapp2.1\SimpleGalleryApplication.Service.pdb
+D:\FilesToGo\Angular\FullStackApp\Image-Gallery-Azure\SimpleGalleryApplication.Service\bin\Debug\netcoreapp2.1\SimpleGalleryApplication.Service.deps.json
+D:\FilesToGo\Angular\FullStackApp\Image-Gallery-Azure\SimpleGalleryApplication.Service\bin\Debug\netcoreapp2.1\SimpleGalleryApplication.Service.dll
+D:\FilesToGo\Angular\FullStackApp\Image-Gallery-Azure\SimpleGalleryApplication.Service\bin\Debug\netcoreapp2.1\SimpleGalleryApplication.Service.pdb
+D:\FilesToGo\Angular\FullStackApp\Image-Gallery-Azure\SimpleGalleryApplication.Service\bin\Debug\netcoreapp2.1\SimpleGalleryApplication.Data.dll
+D:\FilesToGo\Angular\FullStackApp\Image-Gallery-Azure\SimpleGalleryApplication.Service\bin\Debug\netcoreapp2.1\SimpleGalleryApplication.Data.pdb
+D:\FilesToGo\Angular\FullStackApp\Image-Gallery-Azure\SimpleGalleryApplication.Service\obj\Debug\netcoreapp2.1\SimpleGalleryApplication.Service.csprojAssemblyReference.cache
+D:\FilesToGo\Angular\FullStackApp\Image-Gallery-Azure\SimpleGalleryApplication.Service\obj\Debug\netcoreapp2.1\SimpleGalleryApplication.Service.csproj.CoreCompileInputs.cache
+D:\FilesToGo\Angular\FullStackApp\Image-Gallery-Azure\SimpleGalleryApplication.Service\obj\Debug\netcoreapp2.1\SimpleGalleryApplication.Service.AssemblyInfoInputs.cache
+D:\FilesToGo\Angular\FullStackApp\Image-Gallery-Azure\SimpleGalleryApplication.Service\obj\Debug\netcoreapp2.1\SimpleGalleryApplication.Service.AssemblyInfo.cs
+D:\FilesToGo\Angular\FullStackApp\Image-Gallery-Azure\SimpleGalleryApplication.Service\obj\Debug\netcoreapp2.1\SimpleGalleryApplication.Service.csproj.CopyComplete
+D:\FilesToGo\Angular\FullStackApp\Image-Gallery-Azure\SimpleGalleryApplication.Service\obj\Debug\netcoreapp2.1\SimpleGalleryApplication.Service.dll
+D:\FilesToGo\Angular\FullStackApp\Image-Gallery-Azure\SimpleGalleryApplication.Service\obj\Debug\netcoreapp2.1\SimpleGalleryApplication.Service.pdb

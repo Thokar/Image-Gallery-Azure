@@ -31,5 +31,12 @@ namespace SimpleGalleryApplication.Service
         img.ImageTags
         .Any(t => t.Description == tag));
     }
+
+    public object GetBlobContainer(string azureConnectionString, string v)
+    {
+      //var storageAccount = CloudStorageAccount.Parse();
+
+      return new object();
+    }
   }
 }

@@ -8,3 +8,14 @@ D:\Angular\FullStackApp\Image-Gallery-Azure\SimpleGalleryApplication.Data\obj\De
 D:\Angular\FullStackApp\Image-Gallery-Azure\SimpleGalleryApplication.Data\obj\Debug\netcoreapp2.1\SimpleGalleryApplication.Data.AssemblyInfo.cs
 D:\Angular\FullStackApp\Image-Gallery-Azure\SimpleGalleryApplication.Data\obj\Debug\netcoreapp2.1\SimpleGalleryApplication.Data.dll
 D:\Angular\FullStackApp\Image-Gallery-Azure\SimpleGalleryApplication.Data\obj\Debug\netcoreapp2.1\SimpleGalleryApplication.Data.pdb
+D:\FilesToGo\Angular\FullStackApp\Image-Gallery-Azure\SimpleGalleryApplication.Data\bin\Debug\netcoreapp2.1\SimpleGalleryApplication.Data.deps.json
+D:\FilesToGo\Angular\FullStackApp\Image-Gallery-Azure\SimpleGalleryApplication.Data\bin\Debug\netcoreapp2.1\SimpleGalleryApplication.Data.runtimeconfig.json
+D:\FilesToGo\Angular\FullStackApp\Image-Gallery-Azure\SimpleGalleryApplication.Data\bin\Debug\netcoreapp2.1\SimpleGalleryApplication.Data.runtimeconfig.dev.json
+D:\FilesToGo\Angular\FullStackApp\Image-Gallery-Azure\SimpleGalleryApplication.Data\bin\Debug\netcoreapp2.1\SimpleGalleryApplication.Data.dll
+D:\FilesToGo\Angular\FullStackApp\Image-Gallery-Azure\SimpleGalleryApplication.Data\bin\Debug\netcoreapp2.1\SimpleGalleryApplication.Data.pdb
+D:\FilesToGo\Angular\FullStackApp\Image-Gallery-Azure\SimpleGalleryApplication.Data\obj\Debug\netcoreapp2.1\SimpleGalleryApplication.Data.csprojAssemblyReference.cache
+D:\FilesToGo\Angular\FullStackApp\Image-Gallery-Azure\SimpleGalleryApplication.Data\obj\Debug\netcoreapp2.1\SimpleGalleryApplication.Data.csproj.CoreCompileInputs.cache
+D:\FilesToGo\Angular\FullStackApp\Image-Gallery-Azure\SimpleGalleryApplication.Data\obj\Debug\netcoreapp2.1\SimpleGalleryApplication.Data.AssemblyInfoInputs.cache
+D:\FilesToGo\Angular\FullStackApp\Image-Gallery-Azure\SimpleGalleryApplication.Data\obj\Debug\netcoreapp2.1\SimpleGalleryApplication.Data.AssemblyInfo.cs
+D:\FilesToGo\Angular\FullStackApp\Image-Gallery-Azure\SimpleGalleryApplication.Data\obj\Debug\netcoreapp2.1\SimpleGalleryApplication.Data.dll
+D:\FilesToGo\Angular\FullStackApp\Image-Gallery-Azure\SimpleGalleryApplication.Data\obj\Debug\netcoreapp2.1\SimpleGalleryApplication.Data.pdb

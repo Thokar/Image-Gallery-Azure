@@ -9213,11 +9213,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Angular\\FullStackApp\\Image-Gallery-Azure\\SimpleGalleryApplication.Test\\SimpleGalleryApplication.Test.csproj",
+      "projectUniqueName": "D:\\FilesToGo\\Angular\\FullStackApp\\Image-Gallery-Azure\\SimpleGalleryApplication.Test\\SimpleGalleryApplication.Test.csproj",
       "projectName": "SimpleGalleryApplication.Test",
-      "projectPath": "D:\\Angular\\FullStackApp\\Image-Gallery-Azure\\SimpleGalleryApplication.Test\\SimpleGalleryApplication.Test.csproj",
+      "projectPath": "D:\\FilesToGo\\Angular\\FullStackApp\\Image-Gallery-Azure\\SimpleGalleryApplication.Test\\SimpleGalleryApplication.Test.csproj",
       "packagesPath": "C:\\Users\\karbe\\.nuget\\packages\\",
-      "outputPath": "D:\\Angular\\FullStackApp\\Image-Gallery-Azure\\SimpleGalleryApplication.Test\\obj\\",
+      "outputPath": "D:\\FilesToGo\\Angular\\FullStackApp\\Image-Gallery-Azure\\SimpleGalleryApplication.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -9238,11 +9238,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "D:\\Angular\\FullStackApp\\Image-Gallery-Azure\\SimpleGalleryApplication.Data\\SimpleGalleryApplication.Data.csproj": {
-              "projectPath": "D:\\Angular\\FullStackApp\\Image-Gallery-Azure\\SimpleGalleryApplication.Data\\SimpleGalleryApplication.Data.csproj"
+            "D:\\FilesToGo\\Angular\\FullStackApp\\Image-Gallery-Azure\\SimpleGalleryApplication.Data\\SimpleGalleryApplication.Data.csproj": {
+              "projectPath": "D:\\FilesToGo\\Angular\\FullStackApp\\Image-Gallery-Azure\\SimpleGalleryApplication.Data\\SimpleGalleryApplication.Data.csproj"
             },
-            "D:\\Angular\\FullStackApp\\Image-Gallery-Azure\\SimpleGalleryApplication\\SimpleGalleryApplication.csproj": {
-              "projectPath": "D:\\Angular\\FullStackApp\\Image-Gallery-Azure\\SimpleGalleryApplication\\SimpleGalleryApplication.csproj"
+            "D:\\FilesToGo\\Angular\\FullStackApp\\Image-Gallery-Azure\\SimpleGalleryApplication\\SimpleGalleryApplication.csproj": {
+              "projectPath": "D:\\FilesToGo\\Angular\\FullStackApp\\Image-Gallery-Azure\\SimpleGalleryApplication\\SimpleGalleryApplication.csproj"
             }
           }
         }
