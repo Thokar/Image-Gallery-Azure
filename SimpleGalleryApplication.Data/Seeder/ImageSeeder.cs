@@ -13,6 +13,11 @@ namespace SimpleGalleryApplication.Data.Seeder
     {
       context.Database.Migrate();
 
+      foreach (var tag in context.ImageTage)
+      {
+        context.ImageTage.Remove(tag);
+      }
+
       foreach (var img in context.GalleryImages)
       {
         context.GalleryImages.Remove(img);
