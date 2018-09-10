@@ -31,7 +31,6 @@ namespace SimpleGalleryApplication
     // This method gets called by the runtime. Use this method to add services to the container.
     public void ConfigureServices(IServiceCollection services)
     {
-
       // have a look here
       // https://blogs.msdn.microsoft.com/waws/2018/06/12/asp-net-core-settings-for-azure-app-service/
       // and this

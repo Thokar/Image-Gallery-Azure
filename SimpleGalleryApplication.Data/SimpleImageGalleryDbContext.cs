@@ -10,13 +10,7 @@ namespace SimpleGalleryApplication.Data
   {
     public SimpleImageGalleryDbContext (DbContextOptions options) : base(options)
     {
-      using (var db = new SimpleImageGalleryDbContext(options))
-      {
-        if (!db.GalleryImages.Any())
-        {
-          // The table is empty
-        }
-      }
+     
 
     }
 
