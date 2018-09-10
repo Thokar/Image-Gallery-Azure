@@ -43,7 +43,7 @@ namespace SimpleGalleryApplication
       }
       else
       {
-        constring = Configuration.GetConnectionString("DefaultConnection");
+        constring = Configuration.GetConnectionString("ProdConnection");
       }
 
       services.AddDbContext<SimpleImageGalleryDbContext>(options => 
