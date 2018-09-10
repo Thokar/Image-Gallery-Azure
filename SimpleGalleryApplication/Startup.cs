@@ -17,6 +17,9 @@ namespace SimpleGalleryApplication
 {
   public class Startup
   {
+
+    public IHostingEnvironment _environment;
+
     public Startup(IConfiguration configuration)
     {
       Configuration = configuration;
@@ -27,9 +30,27 @@ namespace SimpleGalleryApplication
     // This method gets called by the runtime. Use this method to add services to the container.
     public void ConfigureServices(IServiceCollection services)
     {
+     
+
+
+
+      // have a look here
+      // https://blogs.msdn.microsoft.com/waws/2018/06/12/asp-net-core-settings-for-azure-app-service/
+      // and this
+      // https://blogs.msdn.microsoft.com/benjaminperkins/2017/06/21/asp-net-core-with-entity-framework-core-aspnetcore_environment/
+
+      string constring;
+      if (this._environment.IsDevelopment())
+      {
+        constring = Configuration.GetConnectionString("DefaultConnection");
+      }
+      else
+      {
+        constring = Configuration.GetConnectionString("DefaultConnection");
+      }
+
       services.AddDbContext<SimpleImageGalleryDbContext>(options => 
-        options.UseSqlServer(
-          Configuration.GetConnectionString("DefaultConnection")));
+        options.UseSqlServer(constring));
 
       services.AddScoped<IImage, ImageService>();
 
@@ -47,6 +68,15 @@ namespace SimpleGalleryApplication
     // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
     public void Configure(IApplicationBuilder app, IHostingEnvironment env)
     {
+      // update database
+      using (var scope = app.ApplicationServices.GetRequiredService<IServiceScopeFactory>().CreateScope())
+      {
+        scope.ServiceProvider.GetService<SimpleImageGalleryDbContext>().Database.Migrate();
+      }
+
+
+      _environment = env;
+
       if (env.IsDevelopment())
       {
         app.UseDeveloperExceptionPage();
