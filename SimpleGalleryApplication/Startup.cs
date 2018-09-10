@@ -39,7 +39,8 @@ namespace SimpleGalleryApplication
       string constring;
       if (this._environment.IsDevelopment())
       {
-        constring = Configuration.GetConnectionString("DefaultConnection");
+        //constring = Configuration.GetConnectionString("DefaultConnection");
+        constring = Configuration.GetConnectionString("ProdConnection");
       }
       else
       {
