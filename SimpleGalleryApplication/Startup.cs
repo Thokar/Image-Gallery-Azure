@@ -65,10 +65,10 @@ namespace SimpleGalleryApplication
     public void Configure(IApplicationBuilder app, IHostingEnvironment env)
     {
       // update database
-      using (var scope = app.ApplicationServices.GetRequiredService<IServiceScopeFactory>().CreateScope())
-      {
-        scope.ServiceProvider.GetService<SimpleImageGalleryDbContext>().Database.Migrate();
-      }
+      //using (var scope = app.ApplicationServices.GetRequiredService<IServiceScopeFactory>().CreateScope())
+      //{
+      //  scope.ServiceProvider.GetService<SimpleImageGalleryDbContext>().Database.Migrate();
+      //}
 
       if (env.IsDevelopment())
       {

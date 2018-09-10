@@ -1,4 +1,5 @@
-﻿using SimpleGalleryApplication.Data.Models;
+﻿using Microsoft.EntityFrameworkCore;
+using SimpleGalleryApplication.Data.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,6 +11,10 @@ namespace SimpleGalleryApplication.Data.Seeder
   {
     public static void SeedImages(SimpleImageGalleryDbContext context)
     {
+
+      //Database.SetInitializer<SimpleImageGalleryDbContext>(new MigrateDatabaseToLatestVersion<SimpleImageGalleryDbContext, Configuration>());
+
+      context.Database.Migrate();
 
 
       if (!context.GalleryImages.Any())
