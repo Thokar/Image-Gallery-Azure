@@ -76,7 +76,7 @@ using SimpleGalleryApplication.Models;
             WriteLiteral("      <div class=\"gallery-image-container drop-shadow\">\r\n        ");
             EndContext();
             BeginContext(292, 173, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3fd33fffd0854edd8a468da4bcad4786", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cf59bf67dc224095b526d3a88f73ae86", async() => {
                 BeginContext(365, 38, true);
                 WriteLiteral("\r\n          <div class=\"gallery-image\"");
                 EndContext();
