@@ -7,9 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleGalleryApplication", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleGalleryApplication.Data", "SimpleGalleryApplication.Data\SimpleGalleryApplication.Data.csproj", "{D93DE211-30C6-408E-B742-90C66E5FA192}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleGalleryApplication.Service", "SimpleGalleryApplication.Service\SimpleGalleryApplication.Service.csproj", "{9B453307-DC24-4DEF-9071-F99D880A3AA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleGalleryApplication.Service", "SimpleGalleryApplication.Service\SimpleGalleryApplication.Service.csproj", "{9B453307-DC24-4DEF-9071-F99D880A3AA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleGalleryApplication.Test", "SimpleGalleryApplication.Test\SimpleGalleryApplication.Test.csproj", "{256ABD89-ED95-497A-B2F7-FDA52EE383B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleGalleryApplication.Test", "SimpleGalleryApplication.Test\SimpleGalleryApplication.Test.csproj", "{256ABD89-ED95-497A-B2F7-FDA52EE383B3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
