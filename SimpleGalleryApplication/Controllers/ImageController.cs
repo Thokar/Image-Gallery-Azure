@@ -21,7 +21,8 @@ namespace SimpleGalleryApplication.Controllers
     public ImageController(IConfiguration config, IImageService imageService)
     {
       this._config = config;
-      this.AzureConnectionString = config["AzureStorageConnectionString"];
+      // this.AzureConnectionString = config["AzureStorageConnectionString"];
+      this.AzureConnectionString = "DefaultEndpointsProtocol=https;AccountName=imagegalleryapplication;AccountKey=VrCLPpdgX2Yy63R9EWr0DB03ddeU4Zc82lpHxsZyQ8QSYE/JinoAqSM89RzQ5bcBKxSw0rY2Ta7jVVIqbWYUuw==;EndpointSuffix=core.windows.net";
       this.imageService = imageService;
     }
 
