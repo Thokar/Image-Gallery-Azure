@@ -1,4 +1,6 @@
-﻿.gallery-content
+﻿/*site min https://social.msdn.microsoft.com/Forums/azure/en-US/02f09fd2-ab94-4ec0-b6c4-e6f5eca9fa1f/aspnet-core-siteminjs-never-gets-deployed?forum=windowsazurewebsitespreview*/
+
+.gallery-content
 {
   padding: 24px;
 }
