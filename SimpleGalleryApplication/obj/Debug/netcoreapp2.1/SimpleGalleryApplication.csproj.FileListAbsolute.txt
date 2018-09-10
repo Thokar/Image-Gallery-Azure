@@ -52,7 +52,6 @@ D:\FilesToGo\Angular\FullStackApp\Image-Gallery-Azure\SimpleGalleryApplication\o
 D:\FilesToGo\Angular\FullStackApp\Image-Gallery-Azure\SimpleGalleryApplication\obj\Debug\netcoreapp2.1\SimpleGalleryApplication.csproj.CoreCompileInputs.cache
 D:\FilesToGo\Angular\FullStackApp\Image-Gallery-Azure\SimpleGalleryApplication\obj\Debug\netcoreapp2.1\SimpleGalleryApplication.RazorAssemblyInfo.cache
 D:\FilesToGo\Angular\FullStackApp\Image-Gallery-Azure\SimpleGalleryApplication\obj\Debug\netcoreapp2.1\SimpleGalleryApplication.RazorAssemblyInfo.cs
-D:\FilesToGo\Angular\FullStackApp\Image-Gallery-Azure\SimpleGalleryApplication\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
 D:\FilesToGo\Angular\FullStackApp\Image-Gallery-Azure\SimpleGalleryApplication\obj\Debug\netcoreapp2.1\SimpleGalleryApplication.AssemblyInfoInputs.cache
 D:\FilesToGo\Angular\FullStackApp\Image-Gallery-Azure\SimpleGalleryApplication\obj\Debug\netcoreapp2.1\SimpleGalleryApplication.AssemblyInfo.cs
 D:\FilesToGo\Angular\FullStackApp\Image-Gallery-Azure\SimpleGalleryApplication\obj\Debug\netcoreapp2.1\SimpleGalleryApplication.TagHelpers.input.cache
@@ -77,3 +76,4 @@ D:\FilesToGo\Angular\FullStackApp\Image-Gallery-Azure\SimpleGalleryApplication\o
 D:\FilesToGo\Angular\FullStackApp\Image-Gallery-Azure\SimpleGalleryApplication\obj\Debug\netcoreapp2.1\SimpleGalleryApplication.csproj.CopyComplete
 D:\FilesToGo\Angular\FullStackApp\Image-Gallery-Azure\SimpleGalleryApplication\obj\Debug\netcoreapp2.1\SimpleGalleryApplication.dll
 D:\FilesToGo\Angular\FullStackApp\Image-Gallery-Azure\SimpleGalleryApplication\obj\Debug\netcoreapp2.1\SimpleGalleryApplication.pdb
+D:\FilesToGo\Angular\FullStackApp\Image-Gallery-Azure\SimpleGalleryApplication\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs

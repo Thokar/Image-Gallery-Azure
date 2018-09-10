@@ -1,19 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using SimpleGalleryApplication.Data;
-using SimpleGalleryApplication.Data.Models;
 using SimpleGalleryApplication.Models;
 
 namespace SimpleGalleryApplication.Controllers
 {
   public class GalleryController : Controller
   {
-    private readonly IImage _imageService;
+    private readonly IImageService _imageService;
 
-    public GalleryController(IImage imageService)
+    public GalleryController(IImageService imageService)
     {
       _imageService = imageService;
     }

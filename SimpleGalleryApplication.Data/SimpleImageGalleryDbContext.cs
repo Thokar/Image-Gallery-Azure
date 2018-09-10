@@ -10,10 +10,7 @@ namespace SimpleGalleryApplication.Data
   {
     public SimpleImageGalleryDbContext (DbContextOptions options) : base(options)
     {
-     
-
     }
-
     public DbSet<GalleryImage> GalleryImages { get; set; }
     public DbSet<ImageTag> ImageTage { get; set; }
   }

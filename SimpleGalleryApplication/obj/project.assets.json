@@ -4616,13 +4616,27 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
+      "WindowsAzure.Storage/9.3.1": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "Newtonsoft.Json": "10.0.2"
+        },
+        "compile": {
+          "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
+        }
+      },
       "SimpleGalleryApplication.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "2.1.2",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.1.2",
-          "Microsoft.EntityFrameworkCore.Tools": "2.1.2"
+          "Microsoft.EntityFrameworkCore.Tools": "2.1.2",
+          "WindowsAzure.Storage": "9.3.1"
         },
         "compile": {
           "bin/placeholder/SimpleGalleryApplication.Data.dll": {}
@@ -4635,7 +4649,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
-          "SimpleGalleryApplication.Data": "1.0.0"
+          "SimpleGalleryApplication.Data": "1.0.0",
+          "WindowsAzure.Storage": "9.3.1"
         },
         "compile": {
           "bin/placeholder/SimpleGalleryApplication.Service.dll": {}
@@ -12237,6 +12252,29 @@
         "system.xml.xpath.xdocument.nuspec"
       ]
     },
+    "WindowsAzure.Storage/9.3.1": {
+      "sha512": "s3BpEZRQD9lNKlraWEfbzRLhRUgEl3TMHXsTiHJACwqGJaYEv4kHfm8luxmqJUMZ18hqi3x4XgpwNZ+6E1vBFQ==",
+      "type": "package",
+      "path": "windowsazure.storage/9.3.1",
+      "files": [
+        ".signature.p7s",
+        "lib/net45/Microsoft.WindowsAzure.Storage.dll",
+        "lib/net45/Microsoft.WindowsAzure.Storage.pdb",
+        "lib/net45/Microsoft.WindowsAzure.Storage.xml",
+        "lib/netstandard1.0/Microsoft.WindowsAzure.Storage.dll",
+        "lib/netstandard1.0/Microsoft.WindowsAzure.Storage.pdb",
+        "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll",
+        "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.pdb",
+        "lib/win8/Microsoft.WindowsAzure.Storage.dll",
+        "lib/win8/Microsoft.WindowsAzure.Storage.pdb",
+        "lib/wp8/Microsoft.WindowsAzure.Storage.dll",
+        "lib/wp8/Microsoft.WindowsAzure.Storage.pdb",
+        "lib/wpa/Microsoft.WindowsAzure.Storage.dll",
+        "lib/wpa/Microsoft.WindowsAzure.Storage.pdb",
+        "windowsazure.storage.9.3.1.nupkg.sha512",
+        "windowsazure.storage.nuspec"
+      ]
+    },
     "SimpleGalleryApplication.Data/1.0.0": {
       "type": "project",
       "path": "../SimpleGalleryApplication.Data/SimpleGalleryApplication.Data.csproj",
@@ -12254,7 +12292,8 @@
       "Microsoft.NETCore.App >= 2.1.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.1.1",
       "SimpleGalleryApplication.Data >= 1.0.0",
-      "SimpleGalleryApplication.Service >= 1.0.0"
+      "SimpleGalleryApplication.Service >= 1.0.0",
+      "WindowsAzure.Storage >= 9.3.1"
     ]
   },
   "packageFolders": {
@@ -12321,6 +12360,10 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[2.1.1, )"
+          },
+          "WindowsAzure.Storage": {
+            "target": "Package",
+            "version": "[9.3.1, )"
           }
         },
         "imports": [

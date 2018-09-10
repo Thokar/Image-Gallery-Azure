@@ -102,7 +102,7 @@ WriteAttributeValue("", 260, Model.Title, 260, 12, false);
             WriteLiteral("</span>\r\n  </div>\r\n  <div classe=\"row controls\">\r\n    ");
             EndContext();
             BeginContext(467, 104, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "552a1fb7e72742cc87619c6b17431710", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "aff88c67c84949aabbea17ea03f89e48", async() => {
                 BeginContext(538, 29, true);
                 WriteLiteral("\r\n      Back to Gallery\r\n    ");
                 EndContext();

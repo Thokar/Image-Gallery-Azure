@@ -2,8 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Net.Http.Headers;
+using SimpleGalleryApplication.Data;
 using SimpleGalleryApplication.Models;
 using SimpleGalleryApplication.Service;
 
@@ -11,11 +14,11 @@ namespace SimpleGalleryApplication.Controllers
 {
   public class ImageController : Controller
   {
-    private IConfiguration _config;
-    private ImageService imageService;
+    private readonly IConfiguration _config;
+    private readonly IImageService imageService;
     private string AzureConnectionString { get; }
 
-    private ImageController(IConfiguration config, ImageService imageService)
+    public ImageController(IConfiguration config, IImageService imageService)
     {
       this._config = config;
       this.AzureConnectionString = config["AzureStorageConnectionString"];
@@ -36,13 +39,20 @@ namespace SimpleGalleryApplication.Controllers
     }
 
     [HttpPost]
-    public IActionResult UploadNewImage()
+    public async Task<IActionResult> UploadNewImage(IFormFile file, string title, string tags)
     {
-      //return Ok();
-
       var container = this.imageService.GetBlobContainer(AzureConnectionString, "images");
+      var content = ContentDispositionHeaderValue.Parse(file.ContentDisposition);
+      var fileName = content.FileName.ToString().Replace('"',' ').Trim();
 
-      return Ok();
+      // get a reference to a block blob 
+      var blockBlock = container.GetBlockBlobReference(fileName);
+      await blockBlock.UploadFromStreamAsync(file.OpenReadStream());
+      await imageService.SetImage(title, tags, blockBlock.Uri);
+
+      return RedirectToAction("Index", "Gallery");
+
+      //return Ok();
     }
   }
 }

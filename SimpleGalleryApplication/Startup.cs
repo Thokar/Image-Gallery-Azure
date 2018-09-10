@@ -49,7 +49,7 @@ namespace SimpleGalleryApplication
       services.AddDbContext<SimpleImageGalleryDbContext>(options => 
         options.UseSqlServer(constring));
 
-      services.AddScoped<IImage, ImageService>();
+      services.AddScoped<IImageService, ImageService>();
 
       services.Configure<CookiePolicyOptions>(options =>
       {

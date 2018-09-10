@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "8d4dbc2f6d6e5cb1ef7a8312b9e9e35ce7207620"
+    "signature": "0bc65150305b4f2ae1e6834cdcf8e32568c31dda"
   },
   "compilationOptions": {},
   "targets": {
@@ -2034,11 +2034,23 @@
           }
         }
       },
+      "WindowsAzure.Storage/9.3.1": {
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {
+            "assemblyVersion": "9.3.1.0",
+            "fileVersion": "9.3.1.0"
+          }
+        }
+      },
       "SimpleGalleryApplication/1.0.0": {
         "dependencies": {
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.1.1",
           "SimpleGalleryApplication.Data": "1.0.0",
-          "SimpleGalleryApplication.Service": "1.0.0"
+          "SimpleGalleryApplication.Service": "1.0.0",
+          "WindowsAzure.Storage": "9.3.1"
         },
         "runtime": {
           "SimpleGalleryApplication.dll": {}
@@ -2048,7 +2060,8 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "2.1.2",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.1.2",
-          "Microsoft.EntityFrameworkCore.Tools": "2.1.2"
+          "Microsoft.EntityFrameworkCore.Tools": "2.1.2",
+          "WindowsAzure.Storage": "9.3.1"
         },
         "runtime": {
           "SimpleGalleryApplication.Data.dll": {}
@@ -2056,7 +2069,8 @@
       },
       "SimpleGalleryApplication.Service/1.0.0": {
         "dependencies": {
-          "SimpleGalleryApplication.Data": "1.0.0"
+          "SimpleGalleryApplication.Data": "1.0.0",
+          "WindowsAzure.Storage": "9.3.1"
         },
         "runtime": {
           "SimpleGalleryApplication.Service.dll": {}
@@ -3175,6 +3189,13 @@
       "sha512": "sha512-Zm2BdeanuncYs3NhCj4c9e1x3EXFzFBVv2wPEc/Dj4ZbI9R8ecLSR5frAsx4zJCPBtKQreQ7Q/KxJEohJZbfzA==",
       "path": "system.xml.xpath.xmldocument/4.0.1",
       "hashPath": "system.xml.xpath.xmldocument.4.0.1.nupkg.sha512"
+    },
+    "WindowsAzure.Storage/9.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-s3BpEZRQD9lNKlraWEfbzRLhRUgEl3TMHXsTiHJACwqGJaYEv4kHfm8luxmqJUMZ18hqi3x4XgpwNZ+6E1vBFQ==",
+      "path": "windowsazure.storage/9.3.1",
+      "hashPath": "windowsazure.storage.9.3.1.nupkg.sha512"
     },
     "SimpleGalleryApplication/1.0.0": {
       "type": "project",
