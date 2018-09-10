@@ -20,9 +20,10 @@ namespace SimpleGalleryApplication
 
     public IHostingEnvironment _environment;
 
-    public Startup(IConfiguration configuration)
+    public Startup(IConfiguration configuration, IHostingEnvironment env)
     {
       Configuration = configuration;
+      _environment = env;
     }
 
     public IConfiguration Configuration { get; }
@@ -30,9 +31,6 @@ namespace SimpleGalleryApplication
     // This method gets called by the runtime. Use this method to add services to the container.
     public void ConfigureServices(IServiceCollection services)
     {
-     
-
-
 
       // have a look here
       // https://blogs.msdn.microsoft.com/waws/2018/06/12/asp-net-core-settings-for-azure-app-service/
@@ -61,7 +59,6 @@ namespace SimpleGalleryApplication
         options.MinimumSameSitePolicy = SameSiteMode.None;
       });
 
-
       services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
     }
 
@@ -73,9 +70,6 @@ namespace SimpleGalleryApplication
       {
         scope.ServiceProvider.GetService<SimpleImageGalleryDbContext>().Database.Migrate();
       }
-
-
-      _environment = env;
 
       if (env.IsDevelopment())
       {

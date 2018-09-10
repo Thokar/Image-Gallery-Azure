@@ -7,19 +7,29 @@ using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
+using SimpleGalleryApplication.Data.Seeder;
 
 namespace SimpleGalleryApplication
 {
-    public class Program
+  public class Program
+  {
+    public static void Main(string[] args)
     {
-        public static void Main(string[] args)
-        {
-            CreateWebHostBuilder(args).Build().Run();
-        }
+      CreateWebHostBuilder(args).Build().SeedData().Run();
 
-        public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
+      // same:
+      //BuildWebHost(args).SeedData().Run();
+    }
+
+    public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
+        WebHost.CreateDefaultBuilder(args)
+            .UseUrls("http://localhost:5000/") // different on docker: https://stackoverflow.com/questions/37365277/how-to-specify-the-port-an-asp-net-core-application-is-hosted-on
+            .UseStartup<Startup>();
+
+    public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseUrls("http://localhost:5000/") // different on docker: https://stackoverflow.com/questions/37365277/how-to-specify-the-port-an-asp-net-core-application-is-hosted-on
-                .UseStartup<Startup>();
-    }
+                .UseStartup<Startup>()
+                .Build();
+  }
 }
