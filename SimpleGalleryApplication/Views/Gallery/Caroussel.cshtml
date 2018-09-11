@@ -5,7 +5,7 @@
 }
 
 <!-- important: https://world.episerver.com/blogs/egandalf/dates/2015/4/building-a-carousel-using-global-razor-templates-in-episerver-mvc/ -->
-<div class="container body-content">
+<div class="container body-content-gallery">
   <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
     <ol class="carousel-indicators">
 
@@ -41,7 +41,6 @@
                 <a asp-controller="Gallery" asp-action="Detail" asp-route-id="@list[i - 1].ID">
                   <img src="@list[i - 1].Url" class="gallery-image" alt="@list[i - 1].Title" />
                 </a>
-              
               </div>
               <div>
                 <p class="image-Title">@list[i - 1].Title</p>
@@ -55,7 +54,7 @@
                     <img src="@list[i].Url" class="gallery-image" alt="@list[i].Title" />
                   </a>
                 </div>
-                <span>@list[i].Title</span>
+                <div><p class="image-Title">@list[i].Title</p></div>
               </div>
             }
             @if (list.Count() >= (i + 1))
@@ -66,7 +65,7 @@
                     <img src="@list[i + 1].Url" class="gallery-image" alt="@list[i + 1].Title" />
                   </a>
                 </div>
-                <span>@list[i + 1].Title</span>
+                <div><p class="image-Title">@list[i + 1].Title</p></div>
               </div>
             }
           </div>
@@ -84,7 +83,7 @@
                   <img src="@list[i - 1].Url" class="gallery-image" alt="@list[i - 1].Title" />
                 </a>
               </div>
-              <span>@list[i - 1].Title</span>
+              <div><p class="image-Title">@list[i - 1].Title</p></div>
             </div>
 
             @if (list.Count() >= i)
@@ -95,7 +94,7 @@
                     <img src="@list[i].Url" class="gallery-image" alt="@list[i].Title" />
                   </a>
                 </div>
-                <span>@list[i].Title</span>
+                <div><p class="image-Title">@list[i].Title</p></div>
               </div>
             }
             @if (list.Count() >= (i + 1))
@@ -106,7 +105,7 @@
                     <img src="@list[i + 1].Url" class="gallery-image" alt="@list[i + 1].Title" />
                   </a>
                 </div>
-                <span>@list[i + 1].Title</span>
+                <div><p class="image-Title">@list[i + 1].Title</p></div>
               </div>
             }
           </div>

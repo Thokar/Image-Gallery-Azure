@@ -7,7 +7,7 @@
 
 .image-Title {
   color: white;
-  padding-bottom: 8px;
+  padding-top: 10px;
 }
 
 .footer {
@@ -119,9 +119,7 @@ body {
     padding-left: 15px;
     padding-right: 15px;
 }
-.body-content-main {
-  padding-left: 15px;
-  padding-right: 15px;
+.body-content-gallery {
   background-color: #fff;
   background: linear-gradient(181deg, rgba(255,255,255,0.6), rgba(0,0,0,0.2)), url('../images//adult-architecture-art-296649.jpg') center center no-repeat;
   background-size: 100% 100%;
