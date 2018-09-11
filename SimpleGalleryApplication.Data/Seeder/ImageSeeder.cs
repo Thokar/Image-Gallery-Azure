@@ -11,18 +11,27 @@ namespace SimpleGalleryApplication.Data.Seeder
   {
     public static void SeedImages(SimpleImageGalleryDbContext context)
     {
-      context.Database.Migrate();
+      var seedingDisabled = true;
+      var migrationgDisabled = true;
+
+      if (!migrationgDisabled)
+      {
+        context.Database.Migrate();
+      }
 
       foreach (var tag in context.ImageTage)
       {
         context.ImageTage.Remove(tag);
       }
 
-      foreach (var img in context.GalleryImages)
+      if(!seedingDisabled)
       {
-        context.GalleryImages.Remove(img);
+        foreach (var img in context.GalleryImages)
+        {
+          context.GalleryImages.Remove(img);
+        }
+        context.SaveChanges();
       }
-      context.SaveChanges();
 
       if (!context.GalleryImages.Any())
       {
