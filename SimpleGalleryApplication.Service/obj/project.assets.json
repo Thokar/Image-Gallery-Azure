@@ -4753,23 +4753,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\thoka\\.nuget\\packages\\": {},
+    "C:\\Users\\karbe\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Develop\\Image-Gallery-Azure\\SimpleGalleryApplication.Service\\SimpleGalleryApplication.Service.csproj",
+      "projectUniqueName": "D:\\FilesToGo\\Angular\\FullStackApp\\Image-Gallery-Azure\\SimpleGalleryApplication.Service\\SimpleGalleryApplication.Service.csproj",
       "projectName": "SimpleGalleryApplication.Service",
-      "projectPath": "C:\\Develop\\Image-Gallery-Azure\\SimpleGalleryApplication.Service\\SimpleGalleryApplication.Service.csproj",
-      "packagesPath": "C:\\Users\\thoka\\.nuget\\packages\\",
-      "outputPath": "C:\\Develop\\Image-Gallery-Azure\\SimpleGalleryApplication.Service\\obj\\",
+      "projectPath": "D:\\FilesToGo\\Angular\\FullStackApp\\Image-Gallery-Azure\\SimpleGalleryApplication.Service\\SimpleGalleryApplication.Service.csproj",
+      "packagesPath": "C:\\Users\\karbe\\.nuget\\packages\\",
+      "outputPath": "D:\\FilesToGo\\Angular\\FullStackApp\\Image-Gallery-Azure\\SimpleGalleryApplication.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\thoka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\karbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4777,13 +4777,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "\\\\bamboo\\NuGet_Dep\\Main_2018_06_07": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://www.nuget.org/api/v2/": {}
       },
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Develop\\Image-Gallery-Azure\\SimpleGalleryApplication.Data\\SimpleGalleryApplication.Data.csproj": {
-              "projectPath": "C:\\Develop\\Image-Gallery-Azure\\SimpleGalleryApplication.Data\\SimpleGalleryApplication.Data.csproj"
+            "D:\\FilesToGo\\Angular\\FullStackApp\\Image-Gallery-Azure\\SimpleGalleryApplication.Data\\SimpleGalleryApplication.Data.csproj": {
+              "projectPath": "D:\\FilesToGo\\Angular\\FullStackApp\\Image-Gallery-Azure\\SimpleGalleryApplication.Data\\SimpleGalleryApplication.Data.csproj"
             }
           }
         }

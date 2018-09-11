@@ -42,6 +42,7 @@
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
           <li><a asp-controller="Image" asp-action="Upload">Upload</a></li>
+          <li><a asp-controller="Gallery" asp-action="Caroussel">Caroussel</a></li>
         </ul>
       </div>
       <!--
@@ -58,11 +59,11 @@
 
   <partial name="_CookieConsentPartial" />
 
-  <div class="container body-content">
+  <div class="container body-content-main">
     @RenderBody()
     <hr />
     <footer>
-      <p>&copy; 2018 - SimpleGalleryApplication</p>
+      <p class="footer">&copy; 2018 - SimpleGalleryApplication</p>
     </footer>
   </div>
 

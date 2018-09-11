@@ -16,13 +16,7 @@
           </a>
         </div>
       </div>
-      <!--
-        <div class="gallery-image-container drop-shadow">
-          <a asp-controller="Gallery" asp-action="Detail" asp-route-id="@image.ID">
-            <div class="gallery-image" style="background-image:url(@image.Url)"></div>
-          </a>
-        </div>
-      -->
+
       <span>@image.Title</span>
       <ul>
         @foreach (var tag in image.ImageTags)

@@ -17,7 +17,6 @@ namespace SimpleGalleryApplication
 {
   public class Startup
   {
-
     public IHostingEnvironment _environment;
 
     public Startup(IConfiguration configuration, IHostingEnvironment env)

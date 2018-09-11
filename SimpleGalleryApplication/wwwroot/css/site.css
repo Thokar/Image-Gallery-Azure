@@ -5,6 +5,15 @@
   padding: 24px;
 }
 
+.image-Title {
+  color: white;
+  padding-bottom: 8px;
+}
+
+.footer {
+  color: white;
+}
+
 /* background-size: 100% 100%; */
 .gallery-image {
   height:280px;
@@ -110,6 +119,28 @@ body {
     padding-left: 15px;
     padding-right: 15px;
 }
+.body-content-main {
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #fff;
+  background: linear-gradient(181deg, rgba(255,255,255,0.6), rgba(0,0,0,0.2)), url('../images//adult-architecture-art-296649.jpg') center center no-repeat;
+  background-size: 100% 100%;
+}
+
+
+#scroll-style::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #F5f5f5;
+}
+
+.body-content-main-scroll {
+  flex: 5;
+  order: 2;
+  overflow-y: scroll; /*auto*/
+  background-color: #fff;
+  background-size: 100%;
+}
+
 
 /* Carousel */
 .carousel-caption p {

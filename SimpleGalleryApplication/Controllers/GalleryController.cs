@@ -27,6 +27,19 @@ namespace SimpleGalleryApplication.Controllers
       return View(model);
     }
 
+    public IActionResult Caroussel()
+    {
+      var imageList = _imageService.GetAll();
+
+      var model = new GalleryIndexModel()
+      {
+        Images = imageList,
+        SearchQuery = string.Empty
+
+      };
+      return View(model);
+    }
+
     public IActionResult Detail(int id)
     {
       var image = _imageService.GetById(id);
